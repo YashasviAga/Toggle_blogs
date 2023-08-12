@@ -9,7 +9,12 @@
     justify-content: space-around;
 }
 #nav span{
-    padding: 0px 10px;
+    padding: 20px 5px;
+    margin: 0px 5px;
+}
+#nav span:hover{
+    border-bottom: 3.5px solid;
+    transition: 0.15s;
 }
 .main{
     text-align: center;
@@ -29,7 +34,7 @@ h3{
     border-radius: 5px;
     margin: 10px 0;
 }
-#bloger p{
+#bloger1 p, #bloger2 p, #bloger3 p{
     text-align: left;
     margin: 5px;
 }
@@ -41,12 +46,11 @@ button{
     border-radius: 20px;
 }
 #sun{
-    color: black;
     position: relative;
-    left: 30%;
+    left: -15%;
 }
-#moon{
-    color: rgb(255, 251, 177);
+#slider{
+    display: inline;
 }
 .button_light{
     background-color: black;
@@ -61,7 +65,7 @@ button{
     transition: 0.4s;
 }
 .hide{
-    display: none;
+    color: black;
 }
 .light{
     background-color: rgb(255, 251, 177);
@@ -107,19 +111,19 @@ button{
     color:rgb(255, 251, 177);
     background-color: rgb(255, 251, 177);
     border-radius: 50%;
-    padding: 0px 3px; 
-    position:relative;
-    left: 30%;
-    width: 30%; 
-    transition: 0.4s;
+    padding: 0px 7px; 
+    position: relative;
+    left: -40%;
+    width: 10%; 
+    transition: 0.2s;
 }
 .moon_light{
     color:black;
     background-color: black;
     border-radius: 50%;
-    padding: 0px 3px; 
+    padding: 0px 7px; 
     position: relative;
-    left: -40%;
-    width: 30%; 
-    transition: 0.4s;
+    left: 30%;
+    width: 10%; 
+    transition: 0.2s;
 }
