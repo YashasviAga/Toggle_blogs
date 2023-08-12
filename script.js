@@ -14,8 +14,6 @@ function invert_color() {
         slidertog.classList.add('moon_light');
         let lightthemesun = document.getElementById('sun');
         lightthemesun.classList.add('hide');
-        let lightthememoon = document.getElementById('moon');
-        lightthememoon.classList.remove('hide');
         let blog_part1 = document.getElementById('bloger1');
         blog_part1.classList.remove('light_version');
         blog_part1.classList.add('dark_version');
@@ -49,8 +47,6 @@ function invert_color() {
         slidertog.classList.add('sun_light');
         let lightthemesun = document.getElementById('sun');
         lightthemesun.classList.remove('hide');
-        let lightthememoon = document.getElementById('moon');
-        lightthememoon.classList.add('hide');
         let blog_part1 = document.getElementById('bloger1');
         blog_part1.classList.remove('dark_version');
         blog_part1.classList.add('light_version');
@@ -70,5 +66,4 @@ function invert_color() {
         headers3.classList.remove('blog_dark');
         headers3.classList.add('blog_light');
     }
-
 }
