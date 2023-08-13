@@ -14,7 +14,7 @@
 }
 #nav span:hover{
     border-bottom: 3.5px solid;
-    transition: 0.15s;
+    transition: 0.05s;
 }
 .main{
     text-align: center;
